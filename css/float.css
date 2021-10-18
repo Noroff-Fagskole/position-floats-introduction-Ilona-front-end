@@ -1,0 +1,18 @@
+.float {
+  background-color: antiquewhite;
+  border-bottom: 1px solid blue;
+  padding: 30px;
+  margin: 10px;
+}
+
+.floated-right {
+  float: right;
+}
+.floated-left {
+  float: left;
+}
+
+/* help class */
+.clear {
+  clear: right;
+}

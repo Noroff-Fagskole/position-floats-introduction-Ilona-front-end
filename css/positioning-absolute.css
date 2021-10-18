@@ -1,0 +1,42 @@
+/* position static, it is a default and even not written will be used */
+/* 
+.container {
+  position: static;
+}
+*/
+
+/* makes h1 move down, top and left can move container to anywhere we want on any screen */
+/* default is top: 0; left: 0;*/
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+  width: 320px;
+  height: 120px;
+  background-color: aquamarine;
+}
+
+.container2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 120px;
+  background-color: blue;
+}
+.container3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 320px;
+  height: 120px;
+  background-color: green;
+}
+.container4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 120px;
+  background-color: yellow;
+}

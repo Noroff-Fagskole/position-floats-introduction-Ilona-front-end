@@ -1,0 +1,16 @@
+.container {
+  height: 50px;
+  /* width is 100% by default */
+  background-color: green;
+}
+
+/* position relative:
+  moves elements relative to the parent. 
+  Used in hero banner or call to action boxes
+*/
+.relative-position {
+  position: relative;
+  top: 30px;
+  left: 440px;
+  width: 100%;
+}

@@ -1,0 +1,10 @@
+.container {
+  height: 500px;
+}
+/* no relation to content, like sticky has it´s own position in content*/
+.sticky-position {
+  background-color: turquoise;
+  position: sticky;
+  top: 20px;
+  padding: 20px;
+}
